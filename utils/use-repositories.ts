@@ -8,13 +8,17 @@ type UseRepositoriesInput = {
   language: string | undefined
 }
 
+const lastWeek = new Date(new Date().setDate(new Date().getDate() - 7))
+
 export function useRepositories({
   pageIndex,
   pageSize,
   language,
 }: UseRepositoriesInput): GithubRepositoriesHook {
   const { data, error } = useSWR<GithubRepositoriesResponse>(
-    `https://api.github.com/search/repositories?q=created:%3E2017-01-10+language:${
+    `https://api.github.com/search/repositories?q=created:%3E${lastWeek.toLocaleDateString(
+      'en-CA'
+    )}+language:${
       language ? language : ''
     }&sort=stars&order=desc&per_page=${pageSize}&page=${pageIndex}`,
     fetcher
