@@ -1,0 +1,15 @@
+{
+  "repositories": "Github Repositories",
+  "favorites": "Favoriten",
+  "previous": "Zurück",
+  "next": "Vor",
+  "errorFetching": "Es gab einen Fehler bei der Anfrage der Daten",
+  "page": "Seite",
+  "pageSize": "Repositories pro Seite",
+  "german": "Deutsch",
+  "english": "Englisch",
+  "filterByLanguage": "Nach Sprache filtern",
+  "githubRepositories": "Github Repositories",
+  "favoriteRepositories": "Favorisierte Repositories",
+  "noFavoriteRepositories": "Noch keine Repositories favorisiert"
+}

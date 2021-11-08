@@ -1,0 +1,15 @@
+{
+  "repositories": "Github Repositories",
+  "favorites": "Favorites",
+  "previous": "Previous",
+  "next": "Next",
+  "errorFetching": "There was an error when requesting the data",
+  "page": "Page",
+  "pageSize": "Repositories per Page",
+  "german": "German",
+  "english": "English",
+  "filterByLanguage": "Filter by language",
+  "githubRepositories": "Github Repositories",
+  "favoriteRepositories": "Favorite Repositories",
+  "noFavoriteRepositories": "No favorite Repositories yet"
+}
